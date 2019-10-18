@@ -85,4 +85,4 @@ I wanted to look into the pay rate feature a little more closely to see what the
 
 I would recommend to raise the pay rate based on the active percentage of caregivers. I think a good rate would be $8.50-$9.00/hr.
 
-I would also recommend to look at the different types of clients and see what kind of effect 
+I would also recommend to look at the different types of clients and see what kind of effect each type of client has. If it's negative or positive, what are the traits of each type of client and how to market toward the the types that help retain caregivers. 
