@@ -9,7 +9,7 @@ The Center for American Progress did a study that said the average cost of repla
 
 ## Gathering the Data
 
-This information is taken from a real home care copmany for the dates of January 2013 through the end of July 2019. The data was taken from two data sets.  One with payroll information that included shifts worked, pay rates, hours, etc. This had 482,580 rows with 13 features. The other with employee basic information such as address, age, hire date, etc. This had 7,738 employees with 11 features.
+This information is taken from a real home care company for the dates of January 2013 through the end of July 2019. The data was taken from two data sets.  One with payroll information that included shifts worked, pay rates, hours, etc. This had 482,580 rows with 13 features. The other with employee basic information such as address, age, hire date, etc. This had 7,738 employees with 11 features.
 
 
 
@@ -63,7 +63,9 @@ accuracy = 69.32%, score = 69.32%
 ![dt_confusion](images/dt_confusion.png?raw=true "dt_confusion")
 
 
-The Gradient Booster model is the best.
+
+
+The Gradient Booster model is the best, it is the one in yellow below. Random Forest is the one in green and the Decision Tree is the one in blue.
 ![roc_curve](images/roc_curve.png?raw=true "roc_curve")
 
 ## Feature Importance
