@@ -41,30 +41,30 @@ Since I've split the data from active vs inactive at the median amount of days o
 
 I used a grid search for each model in order to find the best parameters.
 
-Model: LogisticRegression
-precision = 67.04%
-recall = 59.93%
-accuracy = 65.62%, score = 65.62%
-
 Model: GradientBoostingClassifier
 precision = 70.83%
 recall = 74.28%
 accuracy = 72.16%, score = 72.16%
+
+![gb_confusion](images/gb_confusion.png?raw=true "gb_confusion")
 
 Model: RandomForestClassifier
 precision = 72.07%
 recall = 70.54%
 accuracy = 71.91%, score = 71.91%
 
-Model: KNeighborsClassifier
-precision = 64.72%
-recall = 59.55%
-accuracy = 63.95%, score = 63.95%
+![rf_confusion](images/rf_confusion.png?raw=true "rf_confusion")
 
 Model: DecisionTreeClassifier
 precision = 67.88%
 recall = 72.03%
 accuracy = 69.32%, score = 69.32%
+
+![dt_confusion](images/dt_confusion.png?raw=true "dt_confusion")
+
+
+The Gradient Booster model is the best.
+![roc_curve](images/roc_curve.png?raw=true "roc_curve")
 
 ## Feature Importance
 
@@ -85,4 +85,4 @@ I wanted to look into the pay rate feature a little more closely to see what the
 
 I would recommend to raise the pay rate based on the active percentage of caregivers. I think a good rate would be $8.50-$9.00/hr.
 
-I would also recommend to look at the different types of clients and see if they have  
+I would also recommend to look at the different types of clients and see what kind of effect 
